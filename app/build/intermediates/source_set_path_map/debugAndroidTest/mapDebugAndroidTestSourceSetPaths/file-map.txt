@@ -1,0 +1,4 @@
+com.dingding.daka.test.app-androidTest-0 F:\dingding-daka\app\build\generated\res\resValues\androidTest\debug
+com.dingding.daka.test.app-mergeDebugAndroidTestResources-1 F:\dingding-daka\app\build\intermediates\incremental\debugAndroidTest\mergeDebugAndroidTestResources\merged.dir
+com.dingding.daka.test.app-mergeDebugAndroidTestResources-2 F:\dingding-daka\app\build\intermediates\incremental\debugAndroidTest\mergeDebugAndroidTestResources\stripped.dir
+com.dingding.daka.test.app-debugAndroidTest-3 F:\dingding-daka\app\build\intermediates\merged_res\debugAndroidTest\mergeDebugAndroidTestResources

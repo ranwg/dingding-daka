@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">钉钉打卡</string>
+
+    <!-- Main Activity -->
+    <string name="auto_clock_switch">自动打卡</string>
+    <string name="next_clock_in">下次打卡</string>
+    <string name="today_status">今日状态</string>
+    <string name="morning_done">早班已完成</string>
+    <string name="morning_pending">早班待执行</string>
+    <string name="evening_done">晚班已完成</string>
+    <string name="evening_pending">晚班待执行</string>
+    <string name="all_done">今日已全部完成</string>
+    <string name="no_plan">暂无打卡计划</string>
+    <string name="remaining_time">剩余时间</string>
+    <string name="btn_open_dingding">打开钉钉</string>
+    <string name="btn_settings">设置打卡</string>
+    <string name="btn_history">打卡记录</string>
+
+    <!-- Calendar Settings -->
+    <string name="settings_title">打卡设置</string>
+    <string name="month_label">%1$d年%2$d月</string>
+    <string name="random_generate">随机生成</string>
+    <string name="save_settings">保存设置</string>
+    <string name="morning_label">早班</string>
+    <string name="evening_label">晚班</string>
+    <string name="clear_plan">清除计划</string>
+    <string name="weekdays">一二三四五六日</string>
+    <string name="edit_time">编辑时间</string>
+    <string name="select_time">选择时间</string>
+    <string name="cancel">取消</string>
+    <string name="confirm">确定</string>
+    <string name="no_plan_tip">暂无打卡计划，点击「随机生成」创建</string>
+
+    <!-- History -->
+    <string name="history_title">打卡记录</string>
+    <string name="no_history">暂无打卡记录</string>
+    <string name="clock_success">成功</string>
+    <string name="clock_failed">失败</string>
+
+    <!-- Notifications -->
+    <string name="notification_channel_name">打卡提醒</string>
+    <string name="notification_channel_desc">定时打卡提醒通知</string>
+    <string name="notification_title">自动打卡提醒</string>
+    <string name="notification_morning">即将执行早班打卡</string>
+    <string name="notification_evening">即将执行晚班打卡</string>
+
+    <!-- Dialog -->
+    <string name="battery_optimization_title">电池优化提示</string>
+    <string name="battery_optimization_message">为确保定时任务正常执行，请在电池设置中将本应用设为「无限制」或「不允许」。</string>
+    <string name="go_to_settings">前往设置</string>
+    <string name="later">稍后</string>
+
+    <!-- Tips -->
+    <string name="dingding_not_installed">未检测到钉钉应用</string>
+    <string name="clock_executed">已执行打卡</string>
+    <string name="save_success">保存成功</string>
+</resources>

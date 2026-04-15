@@ -1,0 +1,145 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.dingding.daka"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="26"
+9        android:targetSdkVersion="34" />
+10
+11    <!-- 权限声明 -->
+12    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
+12-->F:\dingding-daka\app\src\main\AndroidManifest.xml:7:5-81
+12-->F:\dingding-daka\app\src\main\AndroidManifest.xml:7:22-78
+13    <uses-permission android:name="android.permission.SCHEDULE_EXACT_ALARM" />
+13-->F:\dingding-daka\app\src\main\AndroidManifest.xml:8:5-79
+13-->F:\dingding-daka\app\src\main\AndroidManifest.xml:8:22-76
+14    <uses-permission android:name="android.permission.USE_EXACT_ALARM" />
+14-->F:\dingding-daka\app\src\main\AndroidManifest.xml:9:5-74
+14-->F:\dingding-daka\app\src\main\AndroidManifest.xml:9:22-71
+15    <uses-permission android:name="android.permission.POST_NOTIFICATIONS" />
+15-->F:\dingding-daka\app\src\main\AndroidManifest.xml:10:5-77
+15-->F:\dingding-daka\app\src\main\AndroidManifest.xml:10:22-74
+16    <uses-permission android:name="android.permission.QUERY_ALL_PACKAGES" />
+16-->F:\dingding-daka\app\src\main\AndroidManifest.xml:11:5-119
+16-->F:\dingding-daka\app\src\main\AndroidManifest.xml:11:22-74
+17    <uses-permission android:name="android.permission.REQUEST_IGNORE_BATTERY_OPTIMIZATIONS" />
+17-->F:\dingding-daka\app\src\main\AndroidManifest.xml:12:5-95
+17-->F:\dingding-daka\app\src\main\AndroidManifest.xml:12:22-92
+18    <uses-permission android:name="android.permission.SYSTEM_ALERT_WINDOW" />
+18-->F:\dingding-daka\app\src\main\AndroidManifest.xml:13:5-78
+18-->F:\dingding-daka\app\src\main\AndroidManifest.xml:13:22-75
+19    <uses-permission android:name="android.permission.FOREGROUND_SERVICE" />
+19-->F:\dingding-daka\app\src\main\AndroidManifest.xml:14:5-77
+19-->F:\dingding-daka\app\src\main\AndroidManifest.xml:14:22-74
+20    <!-- 允许唤醒屏幕 -->
+21    <uses-permission android:name="android.permission.WAKE_LOCK" />
+21-->F:\dingding-daka\app\src\main\AndroidManifest.xml:16:5-68
+21-->F:\dingding-daka\app\src\main\AndroidManifest.xml:16:22-65
+22    <!-- 允许解锁屏幕 -->
+23    <uses-permission android:name="android.permission.DISABLE_KEYGUARD" />
+23-->F:\dingding-daka\app\src\main\AndroidManifest.xml:18:5-75
+23-->F:\dingding-daka\app\src\main\AndroidManifest.xml:18:22-72
+24
+25    <application
+25-->F:\dingding-daka\app\src\main\AndroidManifest.xml:20:5-69:19
+26        android:allowBackup="true"
+26-->F:\dingding-daka\app\src\main\AndroidManifest.xml:21:9-35
+27        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+27-->[androidx.core:core:1.5.0] C:\Users\admin\.gradle\caches\transforms-3\2d9bb0b7e7ea942c01e7ad953ae3e124\transformed\core-1.5.0\AndroidManifest.xml:24:18-86
+28        android:debuggable="true"
+29        android:extractNativeLibs="false"
+30        android:icon="@mipmap/ic_launcher"
+30-->F:\dingding-daka\app\src\main\AndroidManifest.xml:22:9-43
+31        android:label="@string/app_name"
+31-->F:\dingding-daka\app\src\main\AndroidManifest.xml:23:9-41
+32        android:roundIcon="@mipmap/ic_launcher_round"
+32-->F:\dingding-daka\app\src\main\AndroidManifest.xml:24:9-54
+33        android:supportsRtl="true"
+33-->F:\dingding-daka\app\src\main\AndroidManifest.xml:25:9-35
+34        android:testOnly="true"
+35        android:theme="@style/Theme.DingDingDaka" >
+35-->F:\dingding-daka\app\src\main\AndroidManifest.xml:26:9-50
+36        <activity
+36-->F:\dingding-daka\app\src\main\AndroidManifest.xml:28:9-35:20
+37            android:name="com.dingding.daka.MainActivity"
+37-->F:\dingding-daka\app\src\main\AndroidManifest.xml:29:13-41
+38            android:exported="true" >
+38-->F:\dingding-daka\app\src\main\AndroidManifest.xml:30:13-36
+39            <intent-filter>
+39-->F:\dingding-daka\app\src\main\AndroidManifest.xml:31:13-34:29
+40                <action android:name="android.intent.action.MAIN" />
+40-->F:\dingding-daka\app\src\main\AndroidManifest.xml:32:17-69
+40-->F:\dingding-daka\app\src\main\AndroidManifest.xml:32:25-66
+41
+42                <category android:name="android.intent.category.LAUNCHER" />
+42-->F:\dingding-daka\app\src\main\AndroidManifest.xml:33:17-77
+42-->F:\dingding-daka\app\src\main\AndroidManifest.xml:33:27-74
+43            </intent-filter>
+44        </activity>
+45        <activity
+45-->F:\dingding-daka\app\src\main\AndroidManifest.xml:37:9-40:58
+46            android:name="com.dingding.daka.CalendarSettingsActivity"
+46-->F:\dingding-daka\app\src\main\AndroidManifest.xml:38:13-53
+47            android:exported="false"
+47-->F:\dingding-daka\app\src\main\AndroidManifest.xml:39:13-37
+48            android:parentActivityName="com.dingding.daka.MainActivity" />
+48-->F:\dingding-daka\app\src\main\AndroidManifest.xml:40:13-55
+49        <activity
+49-->F:\dingding-daka\app\src\main\AndroidManifest.xml:42:9-45:58
+50            android:name="com.dingding.daka.HistoryActivity"
+50-->F:\dingding-daka\app\src\main\AndroidManifest.xml:43:13-44
+51            android:exported="false"
+51-->F:\dingding-daka\app\src\main\AndroidManifest.xml:44:13-37
+52            android:parentActivityName="com.dingding.daka.MainActivity" />
+52-->F:\dingding-daka\app\src\main\AndroidManifest.xml:45:13-55
+53
+54        <!-- 打卡服务 - 前台服务确保后台运行 -->
+55        <service
+55-->F:\dingding-daka\app\src\main\AndroidManifest.xml:48:9-51:40
+56            android:name="com.dingding.daka.service.ClockService"
+56-->F:\dingding-daka\app\src\main\AndroidManifest.xml:49:13-49
+57            android:enabled="true"
+57-->F:\dingding-daka\app\src\main\AndroidManifest.xml:50:13-35
+58            android:exported="false" />
+58-->F:\dingding-daka\app\src\main\AndroidManifest.xml:51:13-37
+59
+60        <!-- 闹钟接收器 -->
+61        <receiver
+61-->F:\dingding-daka\app\src\main\AndroidManifest.xml:54:9-57:40
+62            android:name="com.dingding.daka.receiver.AlarmReceiver"
+62-->F:\dingding-daka\app\src\main\AndroidManifest.xml:55:13-51
+63            android:enabled="true"
+63-->F:\dingding-daka\app\src\main\AndroidManifest.xml:56:13-35
+64            android:exported="false" />
+64-->F:\dingding-daka\app\src\main\AndroidManifest.xml:57:13-37
+65
+66        <!-- 开机广播接收器 -->
+67        <receiver
+67-->F:\dingding-daka\app\src\main\AndroidManifest.xml:60:9-67:20
+68            android:name="com.dingding.daka.receiver.BootReceiver"
+68-->F:\dingding-daka\app\src\main\AndroidManifest.xml:61:13-50
+69            android:enabled="true"
+69-->F:\dingding-daka\app\src\main\AndroidManifest.xml:62:13-35
+70            android:exported="true" >
+70-->F:\dingding-daka\app\src\main\AndroidManifest.xml:63:13-36
+71            <intent-filter>
+71-->F:\dingding-daka\app\src\main\AndroidManifest.xml:64:13-66:29
+72                <action android:name="android.intent.action.BOOT_COMPLETED" />
+72-->F:\dingding-daka\app\src\main\AndroidManifest.xml:65:17-79
+72-->F:\dingding-daka\app\src\main\AndroidManifest.xml:65:25-76
+73            </intent-filter>
+74        </receiver>
+75
+76        <service
+76-->[androidx.room:room-runtime:2.3.0] C:\Users\admin\.gradle\caches\transforms-3\d56e4cf93c72da77e570ace270b166c9\transformed\room-runtime-2.3.0\AndroidManifest.xml:25:9-28:40
+77            android:name="androidx.room.MultiInstanceInvalidationService"
+77-->[androidx.room:room-runtime:2.3.0] C:\Users\admin\.gradle\caches\transforms-3\d56e4cf93c72da77e570ace270b166c9\transformed\room-runtime-2.3.0\AndroidManifest.xml:26:13-74
+78            android:directBootAware="true"
+78-->[androidx.room:room-runtime:2.3.0] C:\Users\admin\.gradle\caches\transforms-3\d56e4cf93c72da77e570ace270b166c9\transformed\room-runtime-2.3.0\AndroidManifest.xml:27:13-43
+79            android:exported="false" />
+79-->[androidx.room:room-runtime:2.3.0] C:\Users\admin\.gradle\caches\transforms-3\d56e4cf93c72da77e570ace270b166c9\transformed\room-runtime-2.3.0\AndroidManifest.xml:28:13-37
+80    </application>
+81
+82</manifest>
